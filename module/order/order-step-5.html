@@ -227,6 +227,7 @@
                         </div>
                     </div>
 
+                    <!-- DATA KEHADIRAN -->
                     <div class="view-sm">
                         <div class="container-y">
                             <div class="card-content-xl w-100">
@@ -237,7 +238,7 @@
                                     </div>
                                 </div>
                                 <div class="container-x container-y">
-                                    <div class="card d-flex radius-10 shadow-normal button bg-white position-relative padding-x-10">
+                                    <div class="card d-flex shadow-normal button bg-white position-relative padding-x-10" style="border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;">
                                         <div class="d-flex align-items-center margin-t-10">
                                             <img src="../../assets/images/icon/icon-warning-black.svg" alt="" class="img-fluid d-20">
                                             <p class="Sora-Regular text-xs-1x font-black-100 margin-l-5">Absensi Kehadiran</p>
@@ -250,15 +251,91 @@
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <p class="Sora-SemiBold text-xs-1x font-blue-300">Titik Kumpul</p>
                                             </div>
+                                            <div class="radius-10 margin-t-10">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126926.83520745114!2d106.71101721283287!3d-6.2087634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f61bfc4b55d7%3A0x61d307cbb547ff28!2sBidara%20Cina%2C%20Kecamatan%20Jatinegara%2C%20Kota%20Jakarta%20Timur%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sen!2sid!4v1697035597660!5m2!1sen!2sid"
+                                                    style=" width: 100%; height: 200px;" allowfullscreen="" loading="lazy"></iframe>
+                                            </div>
+                                            <p class="Sora-Regular text-xs-1x font-grey-200">Bidara Cina, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta</p>
                                         <!-- Tombol Pesan Lagi -->
                                         <div class="margin-b-10 margin-t-10">
                                             <button class="Sora-SemiBold text-xs-1x d-flex justify-content-center align-items-center w-100 radius-10 bg-gradient-blue-100 font-white border-0 height-40">
                                                 Hadir
                                             </button>
                                             <button class="Sora-SemiBold text-xs-1x d-flex justify-content-center align-items-center w-100 radius-10 bg-grey-50 font-grey-200 border-0 height-40 margin-t-10">
-                                                Hadir
+                                                Selesai
                                             </button>
                                         </div>
+                                    </div>
+                                    <div class="Sora-SemiBold text-xs bg-violet-100 d-flex justify-content-center align-items-center font-violet-200 padding-y-10">Waktu kehadiran
+                                        <div class="d-flex gap-8">
+                                            <div class="bg-violet-200 margin-l-10  text-white radius-6 padding-5 text-center text-xs Sora-Regular">
+                                                00
+                                            </div>
+                                            <div class="bg-violet-200 margin-l-10  text-white radius-6 padding-5 text-center text-xs Sora-Regular">
+                                                24
+                                            </div>
+                                            <div class="bg-violet-200 margin-l-10  text-white radius-6 padding-5 text-center text-xs Sora-Regular">
+                                                00
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Petunjuk -->
+                                    <div class="text-xs-1x bg-orange-100 line-height-1.5 padding-10 font-orange-300">
+                                        Klik tombol <strong class="Sora-SemiBold font-orange-300">Hadir</strong>, sesuai tanggal kehadiran dan titik kumpul!<br>
+                                        Klik tombol <strong class="Sora-SemiBold font-orange-300">Selesai</strong>, jika perjalanan berakhir!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PEMBATALAN -->
+                    <div class="view-sm">
+                        <div class="container-y">
+                            <div class="card-content-xl w-100">
+                                <div class="container-x">
+                                    <div class="d-flex align-items-center">
+                                        <span class="heading-tag"></span>
+                                        <h2 class="Sora-SemiBold text-xs font-black-200">Pembatalan</h2>
+                                    </div>
+                                </div>
+                                <div class="container-x container-y">
+                                    <div class="card d-flex shadow-normal button bg-white position-relative padding-x-10" style="border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;">
+                                        <div class="d-flex align-items-center margin-t-10">
+                                            <img src="../../assets/images/icon/icon-warning-black.svg" alt="" class="img-fluid d-20">
+                                            <p class="Sora-Regular text-xs-1x font-black-100 margin-l-5">Berlaku syarat & ketentuan pembatalan pesanan</p>
+                                        </div>
+                                            <!-- Konten Utama -->
+                                            <div class="d-flex justify-content-between align-items-center margin-t-10">
+                                                <p class="Sora-SemiBold text-xs-1x font-blue-300">Biaya Pembatalan</p>
+                                                <p class="Sora-Regular text-xs-1x font-grey-200">Rp. 20.000</p>
+                                            </div>
+                                        <!-- Tombol Pesan Lagi -->
+                                        <div class="margin-b-10 margin-t-10">
+                                            <button class="Sora-SemiBold text-xs-1x d-flex justify-content-center align-items-center w-100 radius-10 bg-gradient-blue-100 font-white border-0 height-40">
+                                                Batalkan Pesanan
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="Sora-SemiBold text-xs bg-violet-100 d-flex justify-content-center align-items-center font-violet-200 padding-y-10">Batalkan Sebelum
+                                        <div class="d-flex gap-8">
+                                            <div class="bg-violet-200 margin-l-10  text-white radius-6 padding-5 text-center text-xs Sora-Regular">
+                                                00
+                                            </div>
+                                            <div class="bg-violet-200 margin-l-10  text-white radius-6 padding-5 text-center text-xs Sora-Regular">
+                                                24
+                                            </div>
+                                            <div class="bg-violet-200 margin-l-10  text-white radius-6 padding-5 text-center text-xs Sora-Regular">
+                                                00
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Petunjuk -->
+                                    <div class="text-xs-1x bg-orange-100 line-height-1.5 padding-10 font-orange-300">
+                                        <p>Pembatalan pesanan dapat dilakukan sebelum batas waktu pembatalan</p>
+                                        <p class="margin-t-5">Pembatalan pesanan dapat dikenakan biaya pembatalan sebesar 1,5% dari harga paket. Dengan membatalkan pesanan anda menyetujui syarat dan ketentuan yang berlaku.</p>
                                     </div>
                                 </div>
                             </div>
