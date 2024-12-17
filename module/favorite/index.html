@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wondo | Favorite</title>
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="../../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../assets/css/responsive.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+
+    <link rel="stylesheet" href="../../assets/css/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="../../assets/css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../assets/css/owl-carousel/owl.theme.default.css">
+    <link rel="stylesheet" href="../../assets/css/owl-carousel/owl.theme.default.min.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+       
+
+        <div class="view-sm">
+            <div class="position-fixed w-100 bg-white shadow-normal radius-t-10 navigation-mobile"
+                style="z-index: 999;">
+                <div class="container-x container-y d-flex justify-content-between align-items-center"><a href="../home/index.html"
+                        class="navigation-mobile-item d-flex flex-column align-items-center button"><img
+                            src="../../assets/images/icon/icon-home-nonactive.svg" class="img-fluid d-20">
+                        <p class="text-xs text-center font-grey-100 SoraMedium">Beranda</p>
+                    </a><a href="../favorite/index.html"
+                        class="navigation-mobile-item d-flex flex-column align-items-center button"><img
+                            src="../../assets/images/icon/icon-favorit-active.svg" class="img-fluid d-20">
+                        <p class="text-xs text-center font-blue-100 SoraLight">Favorit</p>
+                    </a><a href="transaksi"
+                        class="navigation-mobile-item d-flex flex-column align-items-center button"><img
+                            src="../../assets/images/icon/icon-transaction-nonactive.svg" class="img-fluid d-20">
+                        <p class="text-xs text-center font-grey-100 SoraLight">Transaksi</p>
+                    </a><a href="profil"
+                        class="navigation-mobile-item d-flex flex-column align-items-center button"><img
+                            src="../../assets/images/icon/icon-profile-nonactive.svg" class="img-fluid d-20">
+                        <p class="text-xs text-center font-grey-100 SoraLight">Profil</p>
+                    </a></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                nav: false,
+                responsive: {
+                    300: {
+                        items: 2
+                    },
+                    768: {
+                        items: 3
+                    },
+                    991: {
+                        items: 3
+                    },
+                    1200: {
+                        items: 4
+                    },
+                }
+            });
+        });
+    </script>
+
+    <!-- BOOTSTRAP -->
+    <script src="https://kit.fontawesome.com/4f1b9a1d3a.js" crossorigin="anonymous"></script>
+    <script src="../../assets/js/bootstrap.js"></script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+
+    <script src="../../assets/js/owl.carousel.js"></script>
+    <script src="../../assets/js/owl.carousel.min.js"></script>
+</body>
+
+</html>
